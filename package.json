@@ -9,7 +9,7 @@
     "prebuild": "rimraf dist",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "start": "nest start",
+    "start": "node dist/main",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
@@ -18,16 +18,15 @@
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "test:e2e": "jest --config ./test/jest-e2e.json",
-    "deploy": "npm ci && npm run build && npm run start:prod"
+    "test:e2e": "jest --config ./test/jest-e2e.json"
+
   },
-  
   "dependencies": {
     "@nestjs-modules/mailer": "^1.8.1",
     "@nestjs/common": "^7.6.18",
     "@nestjs/core": "^7.6.15",
     "@nestjs/jwt": "^9.0.0",
-    "@nestjs/passport": "^8.0.1",
+    "@nestjs/passport": "^9.0.0",
     "@nestjs/platform-express": "^7.6.15",
     "aws-sdk": "^2.1199.0",
     "bcryptjs": "^2.4.3",

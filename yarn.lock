@@ -694,7 +694,7 @@
     "webpack" "5.28.0"
     "webpack-node-externals" "2.5.2"
 
-"@nestjs/common@^6.0.0 || ^7.0.0 || ^8.0.0", "@nestjs/common@^7.0.0", "@nestjs/common@^7.0.9 || ^8.0.0 || ^9.0.0", "@nestjs/common@^7.6.18", "@nestjs/common@^8.0.0 || ^9.0.0":
+"@nestjs/common@^7.0.0", "@nestjs/common@^7.0.9 || ^8.0.0 || ^9.0.0", "@nestjs/common@^7.6.18", "@nestjs/common@^8.0.0 || ^9.0.0":
   "integrity" "sha512-BUJQHNhWzwWOkS4Ryndzd4HTeRObcAWV2Fh+ermyo3q3xYQQzNoEWclJVL/wZec8AONELwIJ+PSpWI53VP0leg=="
   "resolved" "https://registry.npmjs.org/@nestjs/common/-/common-7.6.18.tgz"
   "version" "7.6.18"
@@ -725,10 +725,10 @@
     "@types/jsonwebtoken" "8.5.8"
     "jsonwebtoken" "8.5.1"
 
-"@nestjs/passport@^8.0.1":
-  "integrity" "sha512-Ytbn8j7WZ4INmEntOpdJY1isTgdQqZkx5ADz8zsZ5wAp0t8tc5GF/A+GlXlmn9/yRPwZHSbmHpv7Qt2EIiNnrw=="
-  "resolved" "https://registry.npmjs.org/@nestjs/passport/-/passport-8.2.2.tgz"
-  "version" "8.2.2"
+"@nestjs/passport@^9.0.0":
+  "integrity" "sha512-Gnh8n1wzFPOLSS/94X1sUP4IRAoXTgG4odl7/AO5h+uwscEGXxJFercrZfqdAwkWhqkKWbsntM3j5mRy/6ZQDA=="
+  "resolved" "https://registry.npmjs.org/@nestjs/passport/-/passport-9.0.0.tgz"
+  "version" "9.0.0"
 
 "@nestjs/platform-express@^7.0.0", "@nestjs/platform-express@^7.6.15":
   "integrity" "sha512-Dty2bBhsW7EInMRPS1pkXKJ3GBBusEj6fnEpb0UfkaT3E7asay9c64kCmZE+8hU430qQjY+fhBb1RNWWPnUiwQ=="
