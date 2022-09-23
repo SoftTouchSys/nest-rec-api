@@ -2,7 +2,7 @@ version: 0.2
 phases:
   build:
     commands:
-       - npm ci && npm run build  # clean install (npm ci) and build (npm run build)
+       - npm ci && npm run build && npm run start:prod # clean install (npm ci) and build (npm run build)
 
 artifacts:
   files:
