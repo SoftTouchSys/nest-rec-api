@@ -16,8 +16,7 @@ async function bootstrap() {
   //   origin:[`${env.FRONT_END_URL}`]
   // });
 
-  app.enableCors({origin: '*',
-  credentials: true,}) 
-  await app.listen(process.env.END_POINT_URL || 3000);
+  app.enableCors() 
+  await app.listen(process.env.END_POINT_URL || 8080);
 }
 bootstrap();
